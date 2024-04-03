@@ -1,9 +1,14 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
 }
 body{
-  min-height: 110vh;
+  min-height: 100%;
+  line-height: 1;
 }
 
 .navigation{
@@ -68,7 +73,7 @@ input ,textarea{
   margin-top: 15px;
 }
 
-#submit-btn{
+#submit{
   width: 100%;
   background-color: black;
   text-align: center;
