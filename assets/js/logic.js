@@ -29,7 +29,7 @@ function submit(event){
     //creating a blog post object that contains the userName, 
   //title of the blog and the content of the blog post
   if(!userNameInput.value || !titleInput.value || !contentInput.value){
-    alert('hello');
+    alert('Please fill in the form');
     return;
   }
   const blog = {

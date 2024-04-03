@@ -6,7 +6,6 @@ function handleEmpty(){
   element.textContent = "No blogs available yet.....";
   mainElement.appendChild(element);
 }
-// handleEmpty()
 
 function renderBlogList(){
 
